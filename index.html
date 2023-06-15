@@ -1,65 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Webpage Design</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+ <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
 
-    <div class="main">
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">EASY DONATION</h2>
-            </div>
-
-            <div class="menu">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICE</a></li>
-                    <li><a href="#">EVENT</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
-
-            <div class="search">
-                <input class="srch" type="search" name="" placeholder="anything you ask ">
-                <a href="#"> <button class="btn">Search</button></a>
-            </div>
-
-        </div> 
-        <div class="content ">
-            <h1>everyone has something to give <span></span> </h1>
-            <p class="par">Alone we can do so little together we can do so much<br>As you grow older, you will discover that you have two hands: one for helping yourself,<br> the other for helping others<br></p>
-
-                <button class="cn"><a href="#">JOIN US</a></button>
-
-                <div class="form">
-                    <h2>DONATE NOW</h2>
-                    <input type="YOUR NAME" name="NAME" placeholder="Enter your name Here">
-                    <input type="your email" name="email" placeholder="Enter Email Here">
-                    <input type="your contact" name="contact" placeholder="Enter contact Here">
-                    <input type="your bank account number" name="bank account" placeholder="Enter accont number Here">
-                    <input type="amount" name="amount" placeholder="Enter amount Here">
-                    <button class="btnn"><a href="#">click here</a></button>
-
-                    <!--<p class="link">Don't have an account<br>
-                    <a href="#">Sign up </a> here</a></p>
-                    <p class="liw">Log in with</p>-->
-
-                    <div class="icons">
-                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
-                    </div>
-
-                </div>
-                    </div>
-                </div>
+    <div class="wrapper">
+      <div class="task-input">
+        
+        <input type="text" placeholder="ADD A NEW TASK">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
         </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
     </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-</body>
+
+    <script src="script.js"></script>
+
+  </body>
 </html>
